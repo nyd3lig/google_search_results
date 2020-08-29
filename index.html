@@ -1,0 +1,759 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        
+    <!-- Top search section -->
+    <div class="top-container">
+        <div class="logo">
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjzxIDA_rXrAhWIvosKHaoXDtMQPAgI" title="Go to Google Home" id="logo"><img src="images/googlelogo_color_92x30dp.png" width="92" height="30" alt="Google logo"></a>
+        </div>
+
+        <div id="search-bar-container">
+                <input maxlength="2048" type="text" name="searchbar" id="search-bar">
+                <div class="microphone-icon-container">
+                    <svg class="microphone-icon" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path><path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path><path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path><path d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z" fill="#ea4335"></path></svg>
+                </div>
+                <button class="search-button" type="submit" aria-label="Google Search">
+                    <div class="search-icon-container">
+                        <svg class="search-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    </div>
+                </button>
+        </div>
+
+        <div class="right-images">
+            <div class="dots-icon-container">
+                <a target="_blank" class="dots-icon-link" title="Takes you to google products page" href="https://about.google/intl/en/products/?tab=wh" aria-label="Google apps">
+                        <svg class="dots-icon" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                    </a>
+                    
+                
+            </div>
+            <div class="google-avatar-container">
+                    <a target="_blank" aria-label="Instagram Account: Nyd3lig (instagram.com/nyd3lig) title="Takes you to instagram.com/nyd3lig/" href="https://www.instagram.com/nyd3lig/">
+                    <img class="google-avatar" src="images/google_avatar.jpg" alt="google avatar">
+                    </a>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Top section Navigations -->
+    <div id="top-nav">
+        <div id="nav-container">
+            <div id="left-nav-container">
+                <div id="all-container" class="nav-icon-containers">
+                    <span class="nav-icons" class="span-containers" >
+                        <svg class="nav-icons" focusable="false" viewBox="0 0 24 24"><path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59"></path></svg>
+                    </span>
+                    <span class="a-line-height-try">All</span>
+                    </div>
+                <div id="images-container" class="nav-icon-containers">
+                    <a class="top-nav-links" href="https://www.google.com/search?q=rock+lee&hl=en&sxsrf=ALeKk028qeup_a8TplAQ3yDbBS-bXizz7g:1598452330121&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj42s76irnrAhWHxIsKHfWcB9UQ_AUoAXoECBwQAw&cshid=1598452334988&biw=1536&bih=806">
+                        <span class="nav-icons" class="span-containers">
+                            <svg class="nav-icons" focusable="false" viewBox="0 0 24 24"><path d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7v-.01h7a1 1 0 0 0 1-1V5"></path></svg>
+                        </span>
+                        <span class="a-line-height-try">Images</span>
+                    </a>
+                </div>
+                <div id="videos-container" class="nav-icon-containers">
+                    <a class="top-nav-links" href="https://www.google.com/search?q=rock+lee&hl=en&sxsrf=ALeKk028qeup_a8TplAQ3yDbBS-bXizz7g:1598452330121&source=lnms&tbm=vid&sa=X&ved=2ahUKEwj42s76irnrAhWHxIsKHfWcB9UQ_AUoAnoECBwQBA&cshid=1598452340287&biw=1536&bih=806">
+                        <span class="nav-icons" class="span-containers">
+                            <svg class="nav-icons" focusable="false" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg>
+                        </span>
+                        <span class="a-line-height-try">Videos</span>
+                    </a>
+                </div>
+                <div id="news-container" class="nav-icon-containers">
+                    <a class="top-nav-links" href="https://www.google.com/search?q=rock+lee&hl=en&tbm=nws&sxsrf=ALeKk03F5pBEMJk62vj5PySWhK1B42yzww:1598452379545&source=lnms&sa=X&ved=0ahUKEwi4lZeSi7nrAhVkmYsKHTq3Av4Q_AUIDSgD&biw=1536&bih=806&dpr=1.25">
+                        <span class="nav-icons" class="span-containers">
+                            <svg class="nav-icons" focusable="false" viewBox="0 0 24 24"><path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path></svg>
+                        </span>
+                        <span class="a-line-height-try">News</span>
+                    </a>
+                </div>
+                <div id="shopping-container" class="nav-icon-containers">
+                    <a class="top-nav-links" href="https://www.google.com/search?q=rock+lee&hl=en&tbm=shop&sxsrf=ALeKk02eFT4k9U-EAzXlTFibQPptvnOhVQ:1598452394003&source=lnms&sa=X&ved=0ahUKEwjL1omZi7nrAhXks4sKHS9tD7wQ_AUIEigE&biw=1536&bih=806&dpr=1.25">
+                        <span class="nav-icons" class="span-containers">
+                            <svg class="nav-icons" focusable="false" viewBox="0 0 24 24"><path d="M21.11 2.89A3.02 3.02 0 0 0 18.95 2h-5.8c-.81 0-1.58.31-2.16.89L7.25 6.63 2.9 10.98a3.06 3.06 0 0 0 0 4.32l5.79 5.8a3.05 3.05 0 0 0 4.32.01l8.09-8.1c.58-.58.9-1.34.9-2.16v-5.8c0-.81-.32-1.59-.89-2.16zM20 10.85c0 .28-.12.54-.32.74l-3.73 3.74-4.36 4.36c-.41.41-1.08.41-1.49 0l-2.89-2.9-2.9-2.9a1.06 1.06 0 0 1 0-1.49l8.1-8.1c.2-.2.46-.3.74-.3l5.8-.01A1.05 1.05 0 0 1 20 5.05v5.8zM16 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"></path></svg>
+                        </span>
+                        <span class="a-line-height-try">Shopping</span>
+                    </a>
+                </div>
+                <div id="more-container" class="nav-icon-containers">
+                    <a class="top-nav-links" href="">
+                        <span class="nav-icons" class="span-containers">
+                            <svg class="nav-icons" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+                            <span class="a-line-height-try">More</span>
+                        </span>
+                    </a>
+                </div>
+                
+            </div>
+            <div id="right-nav-container">
+                <div class="nav-icon-containers">
+                    <a class="a-line-height-try" class="top-nav-links" class="nav-icon-containers" href="">Settings</a>
+                </div>
+                <div class="nav-icon-containers">
+                    <a class="a-line-height-try" class="top-nav-links" class="nav-icon-containers" href="">Tools</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="all-content">
+  
+
+        <div id="left-content">
+    <main>
+       
+        <div class="left-main-content">
+            <div class="search-result-container">
+                <div id="results">
+                    About 808,000,000 results (0,74 seconds)
+                </div>
+            </div>
+            <div class="search-result">
+                <a class="search-result-link" href="https://naruto.fandom.com/wiki/Rock_Lee">
+                    <cite class="cite-style">
+                        naruto.fandom.com › wiki › Rock_Lee
+                    </cite> 
+        
+                    <span class="dropdown-arrow">
+                        <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                    </span>
+        
+                    <h3 class="search-result-heading">Rock Lee | Narutopedia | Fandom</h3>
+                 </a>
+            </div>
+        
+        <div class="search-result-description">
+            <span class="span-class">
+                <em>Rock Lee</em>
+                (ロック・リー, Rokku Rī) is a shinobi of Konohagakure's <em>Lee</em> clan and a member of Team Guy. Unlike most shinobi, he lacked the skills necessary to use ninjutsu or genjutsu.
+                <br>
+                However, he overcomes those shortcomings by undergoing special training from Might Guy that 
+                <br>
+                would make him a taijutsu master while still a genin.
+            </span>
+        </div>
+     ‎<div id="extra-container">
+        <div class="search-result-extra-information">
+            <div class="extra-information-container">
+                <b>Ninja Rank</b>‎: ‎Part I: ‎<a href="https://naruto.fandom.com/wiki/Genin">Genin</a>
+                ‎: Part II: ‎
+                <a href="https://naruto.fandom.com/wiki/Ch%C5%ABnin">Chūnin</a>‎: Gaid...
+            </div>
+            <div  class="extra-information-container right-block" >
+               <b>Appears in</b>: ‎Anime, Manga, Novel, Game, Movie
+            </div>
+        </div>
+        <div class="search-result-extra-information">
+            <div class="extra-information-container"> 
+                <b>Ninja Registration</b>‎: ‎012561
+            </div>
+            <div class="extra-information-container right-block">
+                <b>Academy Grad. Age</b>: 12
+            </div>
+    </div>
+    </div>
+        <div class="bottom-links">
+            <a href="https://naruto.fandom.com/wiki/Rock_Lee%27s_Springtime_of_Youth_Full_Power_Ninja_Chronicles">
+            Rock Lee's Springtime of ...
+            </a>
+            ·
+            <a href="https://naruto.fandom.com/wiki/Metal_Lee">Metal Lee</a>
+            ·
+            <a href="https://naruto.fandom.com/wiki/Lee_Clan">Lee Clan | Narutopedia</a>
+            ·
+            <a href="https://naruto.fandom.com/wiki/Drunken_Fist">Drunken Fist</a>
+        </div>
+        </div>
+
+        <div class="people-also-search-for">
+            <div class="people-search-top">
+                <h4>People also search for</h4>
+                <span class="x"></span>
+            </div>
+            <div class="people-search-for-links">
+                <div class="people-search-for-links-left">
+                    <a class="ppl-search-a" href="https://www.google.com/search?sa=X&hl=en&biw=1536&bih=806&sxsrf=ALeKk02RvPys3olHeVrmCP9KPAeAO_04wQ%3A1598468613802&lei=BbJGX5bFMOzzqwGw3byIDQ&q=lee%20in%20boruto&ved=2ahUKEwjW26PPx7nrAhXs-SoKHbAuD9EQsKwBKAB6BAgtEAE">lee in boruto</a>
+                    <a class="ppl-search-a" href="https://www.google.com/search?sa=X&hl=en&biw=1536&bih=806&sxsrf=ALeKk02RvPys3olHeVrmCP9KPAeAO_04wQ%3A1598468613802&lei=BbJGX5bFMOzzqwGw3byIDQ&q=metal%20lee&ved=2ahUKEwjW26PPx7nrAhXs-SoKHbAuD9EQsKwBKAF6BAgtEAI">metal lee</a>
+                    <a class="ppl-search-a" href="https://www.google.com/search?sa=X&hl=en&biw=1536&bih=806&sxsrf=ALeKk02RvPys3olHeVrmCP9KPAeAO_04wQ%3A1598468613802&lei=BbJGX5bFMOzzqwGw3byIDQ&q=lee%20clan&ved=2ahUKEwjW26PPx7nrAhXs-SoKHbAuD9EQsKwBKAJ6BAgtEAM">lee clan</a>
+                </div>
+                <div class="people-search-for-links-right">
+                    <a class="ppl-search-a" href="https://www.google.com/search?sa=X&hl=en&biw=1536&bih=806&sxsrf=ALeKk02RvPys3olHeVrmCP9KPAeAO_04wQ%3A1598468613802&lei=BbJGX5bFMOzzqwGw3byIDQ&q=does%20sakura%20die&ved=2ahUKEwjW26PPx7nrAhXs-SoKHbAuD9EQsKwBKAN6BAgtEAQ">does sakura die</a>
+                    <a class="ppl-search-a" href="https://www.google.com/search?sa=X&hl=en&biw=1536&bih=806&sxsrf=ALeKk02RvPys3olHeVrmCP9KPAeAO_04wQ%3A1598468613802&lei=BbJGX5bFMOzzqwGw3byIDQ&q=might%20guy&ved=2ahUKEwjW26PPx7nrAhXs-SoKHbAuD9EQsKwBKAR6BAgtEAU">might guy</a>
+                    <a class="ppl-search-a" href="https://www.google.com/search?sa=X&hl=en&biw=1536&bih=806&sxsrf=ALeKk02RvPys3olHeVrmCP9KPAeAO_04wQ%3A1598468613802&lei=BbJGX5bFMOzzqwGw3byIDQ&q=rock%20lee%20wallpaper&ved=2ahUKEwjW26PPx7nrAhXs-SoKHbAuD9EQsKwBKAV6BAgtEAY">rock lee wallpaper</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- People also ask Table-->
+        <div class="people-ask-table">
+            <div class="people-ask-table-heading ask-table-containers">
+                <h2>People also ask</h2>
+            </div>
+            <div class="people-ask-table-questions ask-table-containers">
+                Who is Rock Lee married to?
+                <span class="table-arrow-container">
+                    <svg class="ask-table-arrow" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                </span>
+            </div>
+            <div class="people-ask-table-questions ask-table-containers">
+                Who is Rock Lee's dad?
+                <span class="table-arrow-container">
+                    <svg class="ask-table-arrow" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                </span>
+            </div>
+            <div class="people-ask-table-questions ask-table-containers">
+                Does Rock Lee die in Naruto?
+                <span class="table-arrow-container">
+                    <svg class="ask-table-arrow" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                </span>
+            </div>
+            <div class="people-ask-table-questions ask-table-containers">
+                Why does Rock Lee look like Guy?
+                <span class="table-arrow-container">
+                    <svg class="ask-table-arrow" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                </span>
+            </div>
+        </div>
+        <div class="feedback-container">
+            <div class="feedback">
+                <a class="feedbacklink" href="">Feedback</a>
+            </div>
+        </div>
+
+        <!--Videos-->
+        <section id="video-section">
+            <div class="video-header-container">
+                <h3>Videos</h3>
+            </div>
+            <div class="all-videos-container">
+                <!--Video 1-->
+                <div class="video-container-padding">
+                    <div class="video-container">
+                        <iframe  width="210" height="118" src="https://www.youtube.com/embed/DBvEmxtlaNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <div class="video-text-container">
+                            <div class="video-text-title-container">
+                                <a href="https://www.youtube.com/embed/DBvEmxtlaNY">Naruto - Rock Lee vs Gaara</a>
+                            </div>
+
+
+                            <div class="video-bottom-text-container">
+                                <div class="video-text-top-container">
+                                        animelab
+                                </div>
+                                <div class="video-text-bottom-container">
+                                        YouTube - Dec 12, 2017
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Video 2-->
+                <div class="video-container-padding">
+                    <div class="video-container">
+                        <iframe width="210" height="118" src="https://www.youtube.com/embed/IUVdI_qJIa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <div class="video-text-container">
+
+                            <div class="video-text-title-container">
+                                <a href="https://www.youtube.com/embed/IUVdI_qJIa0">Rock vs Metal | Boruto: Naruto Next Generations</a>
+                            </div>
+
+                            <div class="video-bottom-text-container">
+                                <div class="video-text-top-container">
+                                    Crunchyroll Collection
+                                </div>
+
+                                <div class="video-text-bottom-container">
+                                    YouTube <span class="bottom-text-style">- Dec 10, 2018</span>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <!--Video 3-->
+                <div class="video-container-padding">
+                    <div class="video-container">
+                        <iframe width="210" height="118" src="https://www.youtube.com/embed/VgDgWzBL7s4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="video-text-container">
+
+                        <div class="video-text-title-container">
+                            <a href="https://www.youtube.com/embed/VgDgWzBL7s4">Rock lee vs Gaara - Linkin park</a>
+                        </div>
+
+                        <div class="video-bottom-text-container">
+                            <div class="video-text-top-container">
+                                RUSTAGE
+                            </div>
+                            <div class="video-text-bottom-container">
+                                YouTube <span class="bottom-text-style">- Oct 11, 2019</span> 
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <!--MORE SEARCH RESULTS-->
+        <div class="left-main-content search-result-spacing">
+            <div class="search-result">
+                <a class="search-result-link" href="https://naruto.fandom.com/wiki/Rock_Lee">
+                    <cite class="cite-style">
+                        en.wikipedia.org › wiki › Rock_Lee
+                    </cite> 
+        
+                    <span class="dropdown-arrow">
+                        <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                    </span>
+        
+                    <h3 class="search-result-heading">Rock Lee - Wikipedia</h3>
+                 </a>
+            </div>
+        
+        <div class="search-result-description">
+            <span class="span-class">
+                <em>Rock Lee</em>
+                (Japanese: ロック・リー, Hepburn: Rokku Rī) is a fictional character in the anime and manga series Naruto created by Masashi Kishimoto. Kishimoto considers 
+                <em>Lee</em>
+                his favorite character to draw, and at first designed 
+                <em>Lee</em>
+                to symbolize human weakness.
+            </span>
+        </div>
+
+        ‎<div class="extra-container">
+            <div class="search-result-extra-information">
+                <div class="extra-information-container">
+                    <b>First appearance</b>‎: ‎Naruto chapter 36: Sakura....
+                </div>
+                <div  class="extra-information-container right-block" >
+                    <b>Ninja rank</b>: Genin in ‎Part I‎; Chunin in ‎Part I... 
+                </div>
+            </div>
+            <div class="search-result-extra-information">
+                <div class="extra-information-container"> 
+                    <b>Ninja team</b>‎: ‎<a href="https://en.wikipedia.org/wiki/List_of_Naruto_characters#Team_Guy">Team Guy</a>
+                </div>
+                <div class="extra-information-container right-block">
+                    <b>Notable relatives</b>: Metal Lee (son)
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- SEARCH RESULT -->
+    <div class="left-main-content search-result-spacing" >
+        <div class="search-result">
+            <a class="search-result-link" href="instagram.com/nyd3lig">
+                <cite class="cite-style">
+                    en.wikipedia.org › wiki › List_of_Rock_Lee_&_His_Ninja_Pals_epis...
+                </cite> 
+    
+                <span class="dropdown-arrow">
+                    <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                </span>
+    
+                <h3 class="search-result-heading">
+                    List of Rock Lee & His Ninja Pals episodes - Wikipedia
+                </h3>
+             </a>
+        </div>
+    
+        <div class="search-result-description">
+            <span class="span-class">
+                <em>Rock Lee</em>
+                & His Ninja Pals is the anime adaptation of the Naruto spin-off manga created by Kenji Taira, <em>Rock Lee</em> no Seishun Full-Power Ninden.
+                
+            </span>
+        </div>
+    </div>
+
+    <!-- SEARCH RESULT -->
+    <div class="left-main-content search-result-spacing" >
+        <div class="search-result">
+            <a class="search-result-link" href="">
+                <cite class="cite-style">
+                    www.cbr.com › Lists
+                </cite> 
+    
+                <span class="dropdown-arrow">
+                    <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                </span>
+    
+                <h3 class="search-result-heading">
+                    5 Ways 'Naruto' Messed Up Rock Lee (& 5 Ways They Rocked ...
+                </h3>
+             </a>
+        </div>
+    
+        <div class="search-result-description">
+            <span class="span-class">
+                Jul 18, 2019 - <em>Rock Lee's</em> character in Naruto is outlandish and awesome at the same time, so here are the ways the series had him look both cool and ...
+            </span>
+        </div>
+    </div>
+
+     <!-- SEARCH RESULT -->
+     <div class="left-main-content search-result-spacing" >
+        <div class="search-result">
+            <a class="search-result-link" href="">
+                <cite class="cite-style">
+                    screenrant.com › Lists
+                </cite> 
+    
+                <span class="dropdown-arrow">
+                    <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                </span>
+    
+                <h3 class="search-result-heading">
+                    Naruto: 10 Questions About Rock Lee, Answered | ScreenRant
+                </h3>
+             </a>
+        </div>
+    
+        <div class="search-result-description">
+            <span class="span-class">
+                Feb 5, 2020 - <em>Rock Lee</em> is one of the more popular characters from Naruto. While we know a lot about him, there are still plenty of questions open about him.
+            </span>
+        </div>
+    </div>
+
+     <!-- SEARCH RESULT -->
+     <div class="left-main-content search-result-spacing" >
+        <div class="search-result">
+            <a class="search-result-link" href="">
+                <cite class="cite-style">
+                    www.pinterest.com › lakawanaitsokay › rock-lee
+                </cite> 
+    
+                <span class="dropdown-arrow">
+                    <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                </span>
+    
+                <h3 class="search-result-heading">
+                    Rock Lee - Pinterest
+                </h3>
+             </a>
+        </div>
+    
+        <div class="search-result-description">
+            <span class="span-class">
+                Aug 16, 2016
+                With Tenor, maker of GIF Keyboard, add popular <em>Rock Lee</em> animated GIFs to your conversations. Share the ...
+            </span>
+        </div>
+    </div>
+
+     <!-- SEARCH RESULT -->
+     <div class="left-main-content search-result-spacing" >
+        <div class="search-result">
+            <a class="search-result-link" href="">
+                <cite class="cite-style">
+                    www.pinterest.co.uk › maxuspayne › rock-lee
+                </cite> 
+    
+                <span class="dropdown-arrow">
+                    <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                </span>
+    
+                <h3 class="search-result-heading">
+                    107 Best Rock lee images in 2020 | Rock lee, Naruto, Naruto ...
+                </h3>
+             </a>
+        </div>
+    
+        <div class="search-result-description">
+            <span class="span-class">
+                Feb 28, 2020 - I work hard and never give up! that is my gift, that is my ninja way!. See more ideas about <em>Rock lee</em>, Naruto, Naruto shippuden.
+            </span>
+        </div>
+    </div>
+
+    <!-- SEARCH RESULT -->
+    <div class="left-main-content search-result-spacing" >
+        <div class="search-result">
+            <a class="search-result-link" href="">
+                <cite class="cite-style">
+                    naruto.neoseeker.com › wiki › Rock-Lee
+                </cite> 
+    
+                <span class="dropdown-arrow">
+                    <img src="images/downarrow.svg" alt="dropdown arrow" width="22px;">
+                </span>
+    
+                <h3 class="search-result-heading">
+                    107 Best Rock lee images in 2020 | Rock lee, Naruto, Naruto ...
+                </h3>
+             </a>
+        </div>
+    
+        <div class="search-result-description">
+            <span class="span-class">
+                Jan 15, 2020 - <em>Rock Lee</em> is a Genin, but is determined to be accepted while protecting his ninja way. He mainly wants to protect his way because he has been ...
+            </span>
+        </div>
+
+        <div class="extra-container">
+            <div class="search-result-extra-information">
+                <div class="extra-information-container">
+                    <b>Height</b>‎: ‎''5'4'' 177.7 cm
+                </div>
+                <div  class="extra-information-container right-block" >
+                    <b>Weight</b>: ‎80 lbs.
+                </div>
+            </div>
+            <div class="search-result-extra-information">
+                <div class="extra-information-container"> 
+                    <b>Age</b>‎: ‎14
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+    <!--RELATED SEARCHES-->
+    <div class="left-main-content">
+        <div class="h3-container">
+            <h3>Related searches</h3>
+        </div>
+        <!--Related searches left column-->
+        <div class="related-searches-items-container">
+            <div class="related-searches-items-left">
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock <b>lee's wife</b>
+                    </span>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock lee  <b>son</b>
+                    </span>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock lee <b>parents</b>
+                    </span>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock lee lee <b>clan</b>
+                    </span>
+                    </a>
+                </div>
+            </div>
+            <!--Related searches Right column-->
+            <div class="related-searches-items-right">
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock lee <b>death</b>
+                    </span>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        <b>metal</b> lee
+                    </span>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock lee <b>and his ninja pals</b>
+                    </span>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk03_q62chAweiFVNT3WXY8M__tr_SQ:1598513592143&q=Rock+Lee%27s+wife&sa=X&ved=2ahUKEwjT58-W77rrAhVwtIsKHZppB7UQ1QIwHHoECCkQAg">
+                    <img class="related-searches-icon" src="images/searchicon.svg" alt="searchicon" width="20px" height="20px">
+                    <span class="related-searches-text">
+                        rock lee <b>father</b>
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="left-main-content">
+        <div class="google-nav-logo-container">
+           <img class="google-nav-logo"  src="images/google_nav_logo.svg">
+        </div>
+        <div class="bottom-nav-links">
+            1
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">8</a>
+            <a href="">9</a>
+          
+            <a class="next-link" href="">Next</a>
+        
+        </div>
+    </div>
+
+ 
+</main>
+ 
+
+</div>
+ <!--RIGHT CONTENT-->
+<div class="right-main-container">
+    <div class="right-main-content">
+        <div class="images">
+            <img src="images/imagesectionimages.jpg" alt="Images of rock lee" width="453">
+        </div>
+    <div class="right-images-text">
+        <div class="right-heading">
+            <h2>Rock Lee</h2>
+            <small>Fictional character</small>
+        </div>
+        <div class="right-paragraph">
+            <p>
+                Rock Lee is a fictional character in the anime and manga series Naruto created by Masashi Kishimoto. Kishimoto considers Lee his favorite character to draw, and at first designed Lee to symbolize human weakness. <a href="https://en.wikipedia.org/wiki/Rock_Lee">Wikipedia</a>
+            </p>
+            <ul>
+                <li>
+                    <b>Affiliations:</b>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=Hidden+Leaf+Village&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tZP1zc0MjQsSrEo0lLPTrbSzy6IzynXz0ssKi3Jj0_OSCxKTC5JLbJKTEvLzMlMLMnMzytexCrskZmSkpqn4JOamKYQlpmTk5ieuoOVEQCkyC-0XAAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoATAuegQICBAD">Hidden Leaf Village</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+allied+shinobi+forces&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TM5LNjIxrbTUUs9OttLPLojPKdfPSywqLcmPT85ILEpMLkktskpMS8vMyUwsyczPK17EKleUn5ytkJOaqpCYk5OZmqJQnJGZl5-UqZCWX5ScWryDlREAmyaBAmkAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoAjAuegQICBAE">Allied Shinobi Forces</a>
+                </li>
+                <li>
+                    <b>Team:</b>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+konoha+11&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TE_KrsgpzjDRks9OttLPLojPKdfPSywqLcmPT85ILEpMLkktsipJTcxdxCpUlJ-crZCTmqqQnZ-Xn5GoYGi4g5URAAt5eNpVAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoATAvegQIChAD">Konoha 11</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+team+two&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TE_KrsixqEzWks9OttLPLojPKdfPSywqLcmPT85ILEpMLkktsipJTcxdxCpYlJ-crZCTmqoA4iuUlOfvYGUEAEjgYpNUAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoAjAvegQIChAE">Team Two</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+star+guard+team&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TE_KrsjJTi_Rks9OttLPLojPKdfPSywqLcmPT85ILEpMLkktsipJTcxdxCpRlJ-crZCTmqpQXJJYpJBemliUogCS2sHKCABMnXdLWwAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoAzAvegQIChAF">Star Guard Team</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+team+guy&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TKuMNzMwTzPVks9OttLPLojPKdfPSywqLcmPT85ILEpMLkktsipJTcxdxCpYlJ-crZCTmqoA4iukl1buYGUEALO5d8xUAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoBDAvegQIChAG">Team Guy</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+third+division&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TDM0MMvNMM3Tks9OttLPLojPKdfPSywqLcmPT85ILEpMLkktsipJTcxdxCpelJ-crZCTmqpQkpFZlKKQklmWWZyZn7eDlREA2vEHXloAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoBTAvegQIChAH">Third Division</a>
+                </li>
+                <li>
+                    <b>Clan:</b>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+lee+clan&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TE9KSzMqN83Tks9OttLPLojPKdfPSywqLcmPT85ILEpMLkktskrOScxbxCpYlJ-crZCTmgrGILEdrIwA0gN9yFQAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoATAwegQICxAD">Lee Clan</a>
+                </li>
+                <li>
+                    <b>Children:</b>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=Metal+Lee&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TM6JN8k1skjRUs5OttLPLojPKdfPSywqLcmPT85ILEpMLkktskrOyMxJKUrNW8TK6Ztakpij4JOauoOVEQDUuQ79UAAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoATAxegQIDRAD">Metal Lee</a>
+                </li>
+                <li>
+                    <b>Jutsu:</b>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+leaf+gale&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TKuMNzPMKozXUshOttLPLojPKdfPSywqLcmPT85ILEpMLkktssoqLSkuXcQqVJSfnK2Qk5oKxIlpCumJOak7WBkB7o9hMlYAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoATAyegQICRAD">Leaf Gale</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+leaf+great+whirlwind&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TE_KrsjJyCjTUshOttLPLojPKdfPSywqLcmPT85ILEpMLkktssoqLSkuXcQqW5SfnK2Qk5oKxIlpCulFqYklCuUZmUU55Zl5KTtYGQGfEg0YYQAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoAjAyegQICRAE">Leaf Great Whirlwind</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+strong+fist&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5R4tVP1zc0TE_KrsiqSkrXUshOttLPLojPKdfPSywqLcmPT85ILEpMLkktssoqLSkuXcQqUpSfnK2Qk5qqUFxSlJ-XrpCWWVyyg5URAA1tNoJYAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoAzAyegQICRAF">Strong Fist</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=rock+lee+jutsu&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS7RUshOttLPLojPKdfPSywqLcmPT85ILEpMLkktssoqLSkuXcTKV5SfnK2Qk5qqABYAAIEqn-RAAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQ44YBKAQwMnoECAkQBg">MORE</a>
+                </li>
+                <li>
+                    <b>Voice actors:</b> 
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=Brian+Donovan&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5RAjPNC5PzLLTUs5Ot9LML4nPK9fMSi0pL8uOTMxKLEpNLUousyvIzk1Pjgez8ouJFrLxORZmJeQou-Xn5ZYl5O1gZASKscbRUAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoATAzegQIBRAD">Brian Donovan</a>
+                    <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=Y%C5%8Dichi+Masukawa&stick=H4sIAAAAAAAAAOPgE-LUz9U3MEkyLS5RAjNT0lJyC7XUs5Ot9LML4nPK9fMSi0pL8uOTMxKLEpNLUousyvIzk1Pjgez8ouJFrAKRR3szkzMyFXwTi0uzE8sTd7AyAgBmARjvVwAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQmxMoAjAzegQIBRAE">Yōichi Masukawa</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-content-bottom">
+            <div class="right-content-bottom-header">
+                <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=Rock+Lee&stick=H4sIAAAAAAAAAONgFuLUz9U3MEkyLS5RQjC1jLOTrfTTMpNLMvPzEnPiS_Myy1KLilORhJIzEosSk0tSi6yKM1NSyxMrixexcgTlJ2cr-KSm7mBlBABR5cEoWwAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQMSgAMDR6BAgGEAE">
+                People also search for</a>
+                <a href="https://www.google.com/search?sxsrf=ALeKk00pLKwEJELt7vHtNnnBvIlkUJ1Uww:1598521881963&q=Rock+Lee&stick=H4sIAAAAAAAAAONgFuLUz9U3MEkyLS5RQjC1jLOTrfTTMpNLMvPzEnPiS_Myy1KLilORhJIzEosSk0tSi6yKM1NSyxMrixexcgTlJ2cr-KSm7mBlBABR5cEoWwAAAA&sa=X&ved=2ahUKEwjZo8KHjrvrAhX0AxAIHWQwD-QQzTooATA0egQIBhAC"><span>View 15+ more</span></a>
+            </div>
+            <div class="right-content-bottom-images">
+                <div class="images-and-link-container">
+                <div class="bottom-image">
+                <img src="data:image/jpeg;base64,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" alt="Mighty Guy">
+                </div>
+                <a href="">Mighty Guy </a>
+            </div>
+                <div class="images-and-link-container">
+                <div class="bottom-image">
+                   <img src="data:image/jpeg;base64,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" alt="Gaara">
+                </div>
+                <a href="">Gaara</a>
+            </div>
+                <div class="images-and-link-container">
+                <div class="bottom-image">
+                    <img src="data:image/jpeg;base64,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" alt="Neji Hyuga">
+                </div>
+                <a href="">Neji Hyuga</a>
+            </div>
+                <div class="images-and-link-container">
+                <div class="bottom-image">
+                    <img src="data:image/jpeg;base64,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" alt="Tenten">
+                </div>
+                <a href="">Tenten</a>
+                </div>
+                <div class="images-and-link-container shikamaru-class">
+                <div class="bottom-image">
+                    <img src="data:image/jpeg;base64,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" alt="Shikamaru Nara">
+                </div>
+                <a  href="">Shikamaru <br>Nara</a>
+            </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+<!--FOOTER-->
+<footer>
+    <div class="footer-container">
+        <div class="top-row-container">
+            <div class="left-top-row">
+                <span>NarutoWorld</span>
+            </div>
+            <div class="right-top-row">
+                <b>Konoha Village</b> - From your Chakra - Use precise Chakra meditation - Learn more
+            </div>
+        </div>
+
+        <div class="bottom-row-container">
+            <div class="bottom-row-links">
+                <a href="">Help</a>
+                <a href="">Send feedback</a>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
